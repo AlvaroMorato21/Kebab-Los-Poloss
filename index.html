@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Polos Kebab</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html"><img src="image 1.svg" alt=""></a>
+           <h1 class="logo">Los Polos Kebab <br> Kebap şişleri</h1>
+          <ul class="menu">
+            <li><a href="cardapio.html">Cardápio</a></li>
+            <li><a href="carrinho.html">Seus pedidos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+
+          <a href="carrinho.html" id="carrinho">carrinho</a>
+          <a href="login.html" id="login">fazer login</a>
+        </nav>
+    </header>
+
+    <main class="menuPrincipal">
+        <section class="destaque">
+            <div class="apresentacao">
+            <h1>Kebab quentinho na sua porta</h1>
+            <div class="botao" >
+                <button class="vercard"><a href="cardapio.html">Ver Cardápio</a></button>
+                <button class="monte"> Monte seu combo</button>
+            </div>
+
+            <form class="cep-form">
+                <input type="text" placeholder="Digite seu CEP" id="cep-input" oninput="mascara_cep()" maxlength="10" required/>
+                <button type="submit" class="cep-button">Verificar entrega</button>
+              </form>
+              
+            </div>
+
+            <div class="carrossel">
+                <div class="carrossel-girar">
+                  <img src="image 4.png" alt="" />
+                  <img src="kebab.jpg" alt="" />
+                  <img src="image 4.png" alt="" />
+                </div>
+              </div>
+        </section>
+
+        <section class="comofunciona">
+          <h1>Como funciona:</h1>
+          <div id="info">
+            <h1>1</h1>
+            <h2>Escolha</h2>
+            <p>monte o seu pedido no cardápio</p>
+          </div>
+          <div id="info2">
+            <h1>2</h1>
+            <h2>Escolha</h2>
+            <p>monte o seu pedido no cardápio</p>
+          </div>
+          <div id="info3">
+            <h1>3</h1>
+            <h2>Escolha</h2>
+            <p>monte o seu pedido no cardápio</p>
+          </div>
+        </section>
+    </main>
+    
+    <footer class="rodape">
+      <img src="image 1.svg" alt="">
+      <h1>"© 2026 Los Polos Kebab. Todos os direitos reservados."</h1>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
